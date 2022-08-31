@@ -225,7 +225,7 @@ ol {
   display: inline-block;
   font-weight: var(--font-weight-bold);
   font-size: var(--stnd-font-size);
-  line-height: 1.42;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-color);
   margin-bottom: 20px;
@@ -328,7 +328,7 @@ ol {
   margin-bottom: 10px;
   font-weight: var(--font-weight-bold);
   font-size: var(--stnd-font-size);
-  line-height: 1.42;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--second-text-color);
 }
@@ -342,6 +342,28 @@ ol {
 .what-we-do-list {
   display: flex;
   gap: 30px;
+}
+.what-we-do-item {
+  position: relative;
+}
+.we-do-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.we-do-text {
+  margin: 27px auto;
+  color: var(--main-color);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--stnd-font-size);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /* OUR TEAM SECTION */
 .our-team {
@@ -395,7 +417,6 @@ ol {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
@@ -482,7 +503,7 @@ ol {
 }
 .portfolio-card-link {
   display: block;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-card-link:hover,
 .portfolio-card-link:focus {
