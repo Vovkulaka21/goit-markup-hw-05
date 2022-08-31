@@ -213,6 +213,7 @@ ol {
   line-height: 1.71;
   letter-spacing: var(--stnd-letter-spacing);
   color: var(--transparency-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact:hover,
 .footer-contact:focus {
