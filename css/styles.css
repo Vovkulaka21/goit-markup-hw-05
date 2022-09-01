@@ -583,7 +583,8 @@ ol {
 	letter-spacing: 0.03em;
 	color: var(--main-color);
 }
-.portfolio-card:hover .overlay {
+.portfolio-card-link:hover .overlay,
+.portfolio-card-link:focus .overlay {
 	transform: translatey(0);
 }
 .portfolio-card-position {
