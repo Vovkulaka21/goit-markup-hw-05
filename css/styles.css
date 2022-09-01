@@ -348,14 +348,16 @@ ol {
 }
 .we-do-label {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
+	height: 72px;
 	background-color: rgba(47, 48, 58, 0.8);
 	position: absolute;
 	bottom: 0;
 	left: 0;
 }
 .we-do-text {
-	margin: 27px auto;
 	color: var(--main-color);
 	font-weight: var(--font-weight-bold);
 	font-size: var(--stnd-font-size);
@@ -420,6 +422,7 @@ ol {
 }
 .social-icon {
 	fill: #afb1b8;
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links:hover,
 .social-links:focus {
@@ -457,7 +460,7 @@ ol {
 }
 .customer-icon {
 	fill: #afb1b8;
-	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-link:hover .customer-icon,
 .customer-link:focus .customer-icon {
